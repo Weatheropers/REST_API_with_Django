@@ -35,38 +35,3 @@ def header(request):
     totaldata = Header.objects.all()
     serializer = HeaderSerializer(totaldata, many=True)
     return Response(serializer.data)
-
-
-# @api_view(['GET'])
-# def gu_0(request):
-#     totaldata = Gu0.objects.all()
-#     serializer = Gu0Serializer(totaldata, many=True)
-#     return Response(serializer.data)
-
-
-# @api_view(['GET'])
-# def gu_1(request):
-#     totaldata = Gu1.objects.all()
-#     serializer = Gu0Serializer(totaldata, many=True)
-#     return Response(serializer.data)
-
-
-# @api_view(['GET'])
-# def gu_2(request):
-#     totaldata = Gu2.objects.all()
-#     serializer = Gu0Serializer(totaldata, many=True)
-#     return Response(serializer.data)
-
-
-# @api_view(['GET'])
-# def gu_3(request):
-#     totaldata = Gu3.objects.all()
-#     serializer = Gu0Serializer(totaldata, many=True)
-#     return Response(serializer.data)
-
-
-# @api_view(['GET'])
-# def gu_4(request):
-#     totaldata = Gu4.objects.all()
-#     serializer = Gu0Serializer(totaldata, many=True)
-#     return Response(serializer.data)
