@@ -1,19 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-2020-4-28~4-29 
-코드 리펙토링, 마음먹고 2일만에 끝냈다. (물론 온라인 수업시간을 빼고, 오후 5시부터 밤까지 2일간.)
-솔직히 첫날은 일단 원격으로 코드를 고칠 순 없으니까, 로컬로 가져와서 코드를 리펙토링하는데, 로컬에서 그동안 관리안한 DB, 코드들을 정리하였고,
-둘째날이 되서야 로컬로 돌아가는 서버에서 폼을 수정했다. 
-
-장고를 잘 알고 있는 줄 알았는데, 폼이 나와버리니까 진짜 삽질만 했다.
-처음은 진짜 감도 안왔는데, 구글링으로 나오는 코드를 모두 읽어보고 나서야(삽질 말기) 감이 잡혔고,
-결국 10시? 쯤 폼으로 서버에서 get 요청을 하는데 성공했다. (진짜 이전까지는 화가 나고 인내심을 수양했지만, 이 후로 부터는 정말 신나고 쾌적한 코딩이였다.)
-이런 해결하는 맛에 코딩한다 싶다. ㅋㅋㅋ 
-
-이제 코드를 전체적으로 완전히 상위호환한 것은 1시간 안에 해결했고,
-결국 2000줄 정도의 코드를 절반의 절반, 500 줄로 줄이는데 성공했다!
-
-정말 1~2달 전에만 해도 너무 멀게만 느껴졌는데, 너무 뿌듯하고 행복한 것 같다.
+2020-5-10
+유빈이랑 하는 과학프로젝트를 앱으로 연장하는 프로젝트! 
+예전에 해왔던 것을 활용해서 매우 빠르게 할 수 있었다. ㅎㅎ
+복습도 되면서 디버깅에도 조금씩 노하우?(라기엔 너무 부족하지만;;)를 붙여볼 수 있었다 ㅋㅋ
 """
 from bs4 import BeautifulSoup
 import requests
@@ -99,9 +89,9 @@ for gu, url in enumerate(urls):  # 유성구, 서구, 중구, 대덕구, 동구�
 # -*- 크롤링 끝, pythonanywhere 원격 DB 업로드 시작 -*-
 
 database_name = "pj_db"
-user_name = 'bosal'
-user_password = 'kkddhh77887788@'
-pythonanywhereDatabaseHostname = 'bosal.mysql.pythonanywhere-services.com'
+user_name = 'weatherAPI'
+user_password = 'kkddhh77887788'
+pythonanywhereDatabaseHostname = 'weatherAPI.mysql.pythonanywhere-services.com'
 
 conn = mysql.connector.connect(
     user=user_name, password=user_password,
