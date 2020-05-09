@@ -10,3 +10,6 @@ from .models import Header
 class Gu0Serializer(serializers.ModelSerializer):
     class Meta:
         model = Gu0
+        fields = ()
+
+

@@ -15,5 +15,7 @@ def hiAPI(request):
 
 
 @api_view(['GET'])
-def hiAPI(request):
-    return Response("Hi I'm Django REST framework!")
+def gu_0(request):
+    totaldata = Gu0.objects.all()
+    serializer = Gu0Serializer(totaldata, many=True)
+    return Response(serializer.data)
