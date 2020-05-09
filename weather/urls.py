@@ -6,4 +6,5 @@ from .views import header
 urlpatterns = [
     path('hi/', hiAPI),
     path('<int:number>', gu),
+    path('header', header),
 ]
