@@ -19,15 +19,15 @@ pythonanywhere 에서 배포했음 (2020-5-10)
 http://weatherapi.pythonanywhere.com/gu/hi
 
 유성구 날씨 :  
-http://weatherapi.pythonanywhere.com/gu/0
+http://weatherapi.pythonanywhere.com/gu/0  
 서구 날씨 :  
-http://weatherapi.pythonanywhere.com/gu/1
+http://weatherapi.pythonanywhere.com/gu/1  
 중구 날씨 :  
-http://weatherapi.pythonanywhere.com/gu/2
+http://weatherapi.pythonanywhere.com/gu/2  
 대덕구 날씨 :  
-http://weatherapi.pythonanywhere.com/gu/3
+http://weatherapi.pythonanywhere.com/gu/3  
 동구 날씨 :  
-http://weatherapi.pythonanywhere.com/gu/4
+http://weatherapi.pythonanywhere.com/gu/4  
 
 헤더정보 (해당 데이터의 업로드 시각) :  
 http://weatherapi.pythonanywhere.com/gu/header
